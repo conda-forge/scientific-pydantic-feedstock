@@ -1,5 +1,5 @@
 {% set name = "scientific-pydantic" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scientific_pydantic-{{ version }}.tar.gz
-  sha256: e228837962f93a9f12628fa59b11906587a43aef44b16f27cb90051d83baa7c9
+  sha256: d34807ab98a330d5232d74ff36de46892d0a3ea658b96cdd295b4b2d171c2717
 
 build:
   noarch: python
